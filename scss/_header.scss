@@ -1,0 +1,156 @@
+/*Inicio del header*/
+.header{
+    grid-area: header;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: $all;
+    .header__nav{
+        background-color: $mainColor;
+        #header__link-img{
+            display: inline;
+            width: 80%;
+            #header__img{
+                width: $all;
+                }
+        }
+        .animate__bounce{
+            animation-duration: 2s;
+        }
+        .header__list{
+            .header__item{
+                &:hover{
+                    background-color: $hoverColor;
+                    transition: all .5s;
+                }
+                .header__text{
+                    font-family:$mainFont;
+                    font-size: $textSm;
+                    font-weight: $bold;
+                    color: $white;
+                    padding-left: 1rem;
+                    &:hover{
+                        color: $white;
+                    }
+                } 
+            }
+        }
+        @media (min-width: 480px){
+            #header__link-img{
+                width: 60%;
+            }
+        .header__list{
+            .header__item{
+                .header__text{
+                    font-size: $textMd;
+                }
+            }
+        }
+        .header__button{
+            font-size: 2.2rem;
+        }
+        }
+        @media (min-width: 576px){
+            .header__list{
+                .header__item{
+                    .header__text{
+                        font-size: $textMd;
+                    }
+                }
+            }
+            #header__link-img{
+                width: 50%;
+            }
+            .header__button{
+                font-size: 2.2rem;
+            }
+        }
+        @media (min-width: 600px){
+            #header__link-img{
+                width: 50%;
+            }
+        }
+        
+        @media (min-width: 768px){
+        .header__button{
+            font-size: 2.5rem;
+        }
+    
+        .header__list{
+            .header__item{
+                .header__text{
+                    font-size: $textBig;
+                    line-height: 3rem;
+                }   
+            }
+        }
+    
+            #header__link-img{
+                width: 40%;
+            }
+        } 
+        @media (min-width: 992px){
+                padding-top: 0;
+                padding-bottom: 0;
+                height: 9rem;
+            
+        
+                #header__link-img{
+                    width: 30%;
+                }
+        
+                #header__text-padding-1, #header__text-padding-2, #header__text-padding-3, #header__text-padding-4{
+                    padding: 0 2.5rem;
+                }
+        
+            .header__list{
+                width: $all;
+                justify-content: space-around;
+                .header__item{
+                    height: $all;
+                    .header__text{
+                        font-size: 1.7rem;
+                        line-height: 9rem;
+                    }
+                }
+            }
+            }
+            @media (min-width: 1024px){
+                .header__list{
+                    .header__item{
+                        .header__text{
+                            font-size: 1.7rem;
+                            line-height: 9rem;
+                        }
+                    }
+                    
+                }
+                    #header__link-img{
+                        width: 30%;
+                    }
+                    
+                    #header__text-padding-1, #header__text-padding-2, #header__text-padding-3, #header__text-padding-4{
+                        padding: 0 2.5rem;
+                    }
+                }
+                @media (min-width: 1200px){
+                    .header__list{
+                        .header__item{
+                            height: $all;
+                            .header__text{
+                                font-size: $textMd;
+                                line-height: 9rem;
+                            }    
+                        }
+                    }
+                        #header__link-img{
+                            width: 22%;
+                            margin-right: 9rem;
+                        }
+                        #header__text-padding-1, #header__text-padding-2, #header__text-padding-3, #header__text-padding-4{
+                            padding: 0 3rem;
+                        }
+                }
+                }
+        }
+/*Fin del header*/
