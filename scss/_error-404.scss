@@ -1,0 +1,74 @@
+/*Inicio de Error 404*/
+    .error-404{
+        width: 90%;
+        margin: 4rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .error-404__container{
+            .error-404__title{
+                font-size: $textExtraBig;
+            }
+            .error-404__text{
+                font-size: $textBig;
+            }
+            .error-404__link{
+                font-size: 1.6rem;
+                color: $black;
+                text-decoration: underline;
+            }
+        }
+    
+        .error-404__img{
+            width: 90%;
+            margin-top: 2rem;
+        }
+
+        @media (min-width: 480px){
+            .error-404__img{
+                width: 70%;
+            }
+        }
+
+        @media (min-width: 576px){
+            width: 80%;
+            
+            .error-404__img{
+                width: 60%;
+            }
+        }
+
+        @media (min-width: 600px){
+            width: 75%;
+        }
+
+        @media (min-width: 768px){
+            width: 70%;
+
+            .error-404__img{
+                width: 50%;
+            }
+        }
+
+        @media (min-width: 992px){
+            width: 65%;
+        }
+
+        @media (min-width: 1024px){
+            width: 70%;
+
+            .error-404__img{
+                width: 40%;
+            }
+        }
+
+        @media (min-width: 1200px){
+            width: 50%;
+
+            .error-404__img{
+                width: 45%;
+            }
+        }
+    }
+/*Fin de Error 404*/

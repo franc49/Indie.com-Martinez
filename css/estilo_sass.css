@@ -19,6 +19,10 @@ h3 {
   color: #0F0E0E;
   font-weight: 600; }
 
+a {
+  color: white;
+  text-decoration: none; }
+
 /*Fin de comunes*/
 /*Inicio del index*/
 .grid-container-index {
@@ -396,6 +400,10 @@ h3 {
     line-height: 2.2rem;
     margin-bottom: 1rem;
     font-family: Arial, Helvetica, sans-serif; }
+  .form .form__container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto; }
   .form .form__text, .form .form__text--gray {
     font-size: 1.5rem;
     text-align: center;
@@ -897,3 +905,52 @@ h3 {
         margin-top: 1rem; } }
 
 /*Fin de Noticias-Teorías y Curiosidades*/
+/*Inicio de Error 404*/
+.error-404 {
+  width: 90%;
+  margin: 4rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .error-404 .error-404__container .error-404__title {
+    font-size: 2.5rem; }
+  .error-404 .error-404__container .error-404__text {
+    font-size: 2rem; }
+  .error-404 .error-404__container .error-404__link {
+    font-size: 1.6rem;
+    color: #0F0E0E;
+    text-decoration: underline; }
+  .error-404 .error-404__img {
+    width: 90%;
+    margin-top: 2rem; }
+  @media (min-width: 480px) {
+    .error-404 .error-404__img {
+      width: 70%; } }
+  @media (min-width: 576px) {
+    .error-404 {
+      width: 80%; }
+      .error-404 .error-404__img {
+        width: 60%; } }
+  @media (min-width: 600px) {
+    .error-404 {
+      width: 75%; } }
+  @media (min-width: 768px) {
+    .error-404 {
+      width: 70%; }
+      .error-404 .error-404__img {
+        width: 50%; } }
+  @media (min-width: 992px) {
+    .error-404 {
+      width: 65%; } }
+  @media (min-width: 1024px) {
+    .error-404 {
+      width: 70%; }
+      .error-404 .error-404__img {
+        width: 40%; } }
+  @media (min-width: 1200px) {
+    .error-404 {
+      width: 50%; }
+      .error-404 .error-404__img {
+        width: 45%; } }
+
+/*Fin de Error 404*/

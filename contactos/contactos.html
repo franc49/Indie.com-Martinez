@@ -47,16 +47,19 @@
     <!--Inicio del formulario-->
     <main>
         <form class="form">
-            <h3 class="form__title">Unete a nuestra comunidad para no perderte nuestro contenido</h3>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label form__text-label">Correo electronico</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text form__sub-text-input">Nosotros no vamos a compartir tu correo electronico con nadie más.</div>
+            <h1 class="form__title">Unete a nuestra comunidad para no perderte nuestro contenido</h1>
+            <div class="form__container">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label form__text-label">Correo electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text form__sub-text-input">Nosotros no vamos a compartir tu correo electronico con nadie más.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label form__text-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label form__text-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" required>
-            </div>
+            
             <div class="form__text">
                 ¿Sobre que contenido queres que se te notifique?
             </div>
@@ -74,10 +77,10 @@
                     <input type="radio" name="preferencia" id="preferencia-3" value="Ambos" class="form__input-radio">
                 </div>
             </div>
-            <div class="form__text--gray">
+            <div class="form__text--gray form__container">
                 Una vez que te hayas registrado, te llegara una notificación cada vez que subamos nuevo contenido.
             </div>
-            <button type="submit" class="btn btn-primary" id="submit">Registrarse</button>
+            <a type="submit" class="btn btn-primary" href="../error_404/error_404.html" id="submit">Registrarse</a>
         </form>
     </main>
     <!--Fin del formulario-->
